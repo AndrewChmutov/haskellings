@@ -1,6 +1,6 @@
 module Types4 where
 
--- I AM NOT DONE
+-- !I AM NOT DONE
 
 {-
 - You can combine multiple values of the SAME type in a *List*.
@@ -24,18 +24,18 @@ boolList = [True]
 -- TODO: Fill in these lists with appropriate elements
 --       (and fix type signatures as necessary)
 ints :: [Int]
-ints = ???
+ints = [-1, 1, -1]
 
-floatingVals :: ???
+floatingVals :: [Float]
 floatingVals = [2.3, 3.5, 8.5, 10.1, 13.3, -42.1]
 
 characters :: [Char]
-characters = ???
+characters = ['a', 'b', 'c']
 
-unsignedInts :: ???
-unsignedInts = ???
+unsignedInts :: [Word]
+unsignedInts = [1, 2, 3, 4]
 
 -- TODO: Lists cannot have elements of different types!
 --       Fix this list below.
 mixedList :: [Int]
-mixedList = [2, 3, 5, 6.7]
+mixedList = [2, 3, 5, 6]

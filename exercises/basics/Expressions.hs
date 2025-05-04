@@ -1,6 +1,6 @@
 module Expressions where
 
--- I AM NOT DONE
+-- !I AM NOT DONE
 
 {- 
 - In Haskell, you can define *expressions* by taking a name and using the
@@ -15,9 +15,9 @@ expression2 = 4.5
 -- TODO: To make this module compile, replace the ??? marks with different
 -- numeric values.
 
-expression3 = ???
+expression3 = 5.6
 
-expression4 = ???
+expression4 = 0
 
 {- 
 - Haskell expression aren't "variables" like you might have in other languages.

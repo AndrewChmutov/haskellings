@@ -30,12 +30,12 @@ multiplyBy3Add5 = multiplyBy3AndAdd 5
 -- Then multiply the second elements together as well.
 -- Add the results.
 multiplyAndAdd :: (Int, Int) -> (Int, Int) -> Int
-multiplyAndAdd = ???
+multiplyAndAdd x y = fst x * fst y + snd x * snd y
 
 -- Take a tuple of two Ints.
 -- Multiply the first value by 3 and the second by 4. Then add the results.
-multiplyBy3And4AndAdd :: ???
-multiplyBy3And4AndAdd = ???
+multiplyBy3And4AndAdd :: (Int, Int) -> Int
+multiplyBy3And4AndAdd (x, y) = x * 3 + y * 4
 
 -- Testing Code
 main :: IO ()

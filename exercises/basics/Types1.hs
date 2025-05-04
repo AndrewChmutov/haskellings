@@ -1,6 +1,6 @@
 module Types1 where
 
--- I AM NOT DONE
+-- !I AM NOT DONE
 
 {-
 - In Haskell, every expression has a *type*.
@@ -38,11 +38,11 @@ expression2 = 4.5
 
 -- TODO: Provide types for each of the expressions below. Of the example types
 -- given, how many work for each one?
-expression3 :: ???
+expression3 :: Word
 expression3 = 50
 
-expression4 :: ???
+expression4 :: Float
 expression4 = 100.1
 
-expression5 :: ???
+expression5 :: Int
 expression5 = -32
